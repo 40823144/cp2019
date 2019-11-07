@@ -4,70 +4,70 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://https-40823144-github-io-cp2019.disqus.com/admin/</loc>
-<lastmod>2019-11-07T20:41:46-00:00</lastmod>
+<loc>https://github.com/40823144/cp2019/tree/master/blog/</loc>
+<lastmod>2019-11-07T20:50:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://https-40823144-github-io-cp2019.disqus.com/admin/archives.html</loc>
-<lastmod>2019-11-07T20:41:46-00:00</lastmod>
+<loc>https://github.com/40823144/cp2019/tree/master/blog/archives.html</loc>
+<lastmod>2019-11-07T20:50:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://https-40823144-github-io-cp2019.disqus.com/admin/tags.html</loc>
-<lastmod>2019-11-07T20:41:46-00:00</lastmod>
+<loc>https://github.com/40823144/cp2019/tree/master/blog/tags.html</loc>
+<lastmod>2019-11-07T20:50:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://https-40823144-github-io-cp2019.disqus.com/admin/categories.html</loc>
-<lastmod>2019-11-07T20:41:46-00:00</lastmod>
+<loc>https://github.com/40823144/cp2019/tree/master/blog/categories.html</loc>
+<lastmod>2019-11-07T20:50:07-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://https-40823144-github-io-cp2019.disqus.com/admin/pages/about/</loc>
+<loc>https://github.com/40823144/cp2019/tree/master/blog/pages/about/</loc>
 <lastmod>2019-10-02T23:57:14+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://https-40823144-github-io-cp2019.disqus.com/admin/2019-Fall-Youtube.html</loc>
+<loc>https://github.com/40823144/cp2019/tree/master/blog/2019-Fall-Youtube.html</loc>
 <lastmod>2019-11-07T11:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://https-40823144-github-io-cp2019.disqus.com/admin/2019-Fall-Win10-1903.html</loc>
+<loc>https://github.com/40823144/cp2019/tree/master/blog/2019-Fall-Win10-1903.html</loc>
 <lastmod>2019-10-30T11:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://https-40823144-github-io-cp2019.disqus.com/admin/category/misc.html</loc>
+<loc>https://github.com/40823144/cp2019/tree/master/blog/category/misc.html</loc>
 <lastmod>2019-11-07T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://https-40823144-github-io-cp2019.disqus.com/admin/tag/2019fallcp.html</loc>
+<loc>https://github.com/40823144/cp2019/tree/master/blog/tag/2019fallcp.html</loc>
 <lastmod>2019-11-07T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://https-40823144-github-io-cp2019.disqus.com/admin/author/40823144.html</loc>
+<loc>https://github.com/40823144/cp2019/tree/master/blog/author/40823144.html</loc>
 <lastmod>2019-11-07T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
