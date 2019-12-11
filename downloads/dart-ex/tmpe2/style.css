@@ -1,0 +1,9 @@
+  
+body {
+  color: white;
+  font-size: 20px;
+}
+
+input, select, textarea {
+font-size: 100%;
+}
