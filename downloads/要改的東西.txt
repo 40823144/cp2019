@@ -1,0 +1,6 @@
+<h1>分組任務</h1>
+<p>Dart 程式</p>
+<p><button onclick="getDart('temperature')">temperature</button></p>
+<!-- 內建放入的 Dart 原始碼 -->
+<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
+<p><iframe width="1200" height="800" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823144&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/temperature&amp;theme=dark"></iframe></p>
