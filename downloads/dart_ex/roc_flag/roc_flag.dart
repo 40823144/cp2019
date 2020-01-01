@@ -23,7 +23,6 @@ void drawUSA(ctx){
   // 請畫出美國國旗
   ctx.clearRect(0, 0, flag_w, flag_h);
   // 先畫滿地紅
-  ctx.clearRect(0, 0, flag_w, flag_h);
   ctx.fillStyle = 'rgb(200, 0, 0)';
   ctx.fillRect(0, 0, flag_w, flag_h);
     // 再畫白線
@@ -34,7 +33,9 @@ void drawUSA(ctx){
   ctx.fillRect(0, 15.4*7, flag_w / 1, flag_h / 13);
   ctx.fillRect(0, 15.4*9, flag_w / 1, flag_h / 13);
   ctx.fillRect(0, 15.4*11, flag_w / 1, flag_h / 13);
-  
+  //左上藍底
+    ctx.fillStyle = 'rgb(0, 0, 150)';
+   ctx.fillRect(0, 0, flag_w / 5 * 2, flag_h / 13 * 7);
 }
 
 void drawROC(ctx){
