@@ -22,9 +22,19 @@ void main() {
 void drawUSA(ctx){
   // 請畫出美國國旗
   ctx.clearRect(0, 0, flag_w, flag_h);
-  ctx.font = "30px Arial";
-  ctx.strokeStyle = 'rgb(255, 0, 0)';
-  ctx.strokeText("請畫出美國國旗", flag_w/6, flag_w/4);
+  // 先畫滿地紅
+  ctx.clearRect(0, 0, flag_w, flag_h);
+  ctx.fillStyle = 'rgb(200, 0, 0)';
+  ctx.fillRect(0, 0, flag_w, flag_h);
+    // 再畫白線
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(0, 15.4, flag_w / 1, flag_h / 13);
+  ctx.fillRect(0, 15.4*3, flag_w / 1, flag_h / 13);
+  ctx.fillRect(0, 15.4*5, flag_w / 1, flag_h / 13);
+  ctx.fillRect(0, 15.4*7, flag_w / 1, flag_h / 13);
+  ctx.fillRect(0, 15.4*9, flag_w / 1, flag_h / 13);
+  ctx.fillRect(0, 15.4*11, flag_w / 1, flag_h / 13);
+  
 }
 
 void drawROC(ctx){
