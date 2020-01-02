@@ -16,9 +16,20 @@ void main() {
   drawROC(ctx);
   querySelector("#roc").onClick.listen((e) => drawROC(ctx));
   querySelector("#jp").onClick.listen((e) => drawJP(ctx));
+   querySelector("#fr").onClick.listen((e) => drawFR(ctx));
   querySelector("#button").onClick.listen((e) => clearCanvas());
 }
-
+void drawFR(ctx){
+  //鋪藍
+  ctx.fillStyle = 'rgb(0,85,164)';
+  ctx.fillRect(0, 0, flag_w, flag_h);
+  //鋪白
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(100, 0, flag_w, flag_h);
+  //鋪紅
+  ctx.fillStyle = 'rgb(250,60,50)';
+  ctx.fillRect(200, 0, flag_w, flag_h);
+}
 void drawJP(ctx){
   // 請畫出日本國旗
   num circle_x = flag_w / 2;
