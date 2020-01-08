@@ -16,8 +16,44 @@ void main() {
   drawROC(ctx);
   querySelector("#roc").onClick.listen((e) => drawROC(ctx));
   querySelector("#jp").onClick.listen((e) => drawJP(ctx));
-   querySelector("#fr").onClick.listen((e) => drawFR(ctx));
+  querySelector("#fr").onClick.listen((e) => drawFR(ctx));
+  querySelector("#ru").onClick.listen((e) => drawRU(ctx));
+  querySelector("#nl").onClick.listen((e) => drawNL(ctx));
+  querySelector("#ge").onClick.listen((e) => drawGE(ctx));
   querySelector("#button").onClick.listen((e) => clearCanvas());
+}
+void drawGE(ctx){
+  //鋪黑
+  ctx.fillStyle = '#000000';
+  ctx.fillRect(0, 0, flag_w, flag_h);
+  //鋪紅
+  ctx.fillStyle = 'rgb(255, 0, 0)';
+  ctx.fillRect(0, 66, flag_w, flag_h);
+  //鋪黃
+  ctx.fillStyle = '#FFCC00';
+  ctx.fillRect(0, 132, flag_w, flag_h);
+}
+void drawNL(ctx){
+  //鋪紅
+  ctx.fillStyle = 'rgb(255, 42, 0)';
+  ctx.fillRect(0, 0, flag_w, flag_h);
+  //鋪白
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(0, 66, flag_w, flag_h);
+  //鋪藍
+  ctx.fillStyle = 'rgb(0, 71, 170)';
+  ctx.fillRect(0, 132, flag_w, flag_h);
+}
+void drawRU(ctx){
+  //鋪白
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(0, 0, flag_w, flag_h);
+  //鋪藍
+  ctx.fillStyle = 'rgb(0,81,186)';
+  ctx.fillRect(0, 66, flag_w, flag_h);
+  //鋪紅
+  ctx.fillStyle = 'rgb(216,30,5)';
+  ctx.fillRect(0, 132, flag_w, flag_h);
 }
 void drawFR(ctx){
   //鋪藍
@@ -25,10 +61,10 @@ void drawFR(ctx){
   ctx.fillRect(0, 0, flag_w, flag_h);
   //鋪白
   ctx.fillStyle = '#fff';
-  ctx.fillRect(100, 0, flag_w, flag_h);
+  ctx.fillRect(90, 0, flag_w, flag_h);
   //鋪紅
   ctx.fillStyle = 'rgb(250,60,50)';
-  ctx.fillRect(200, 0, flag_w, flag_h);
+  ctx.fillRect(189, 0, flag_w, flag_h);
 }
 void drawJP(ctx){
   // 請畫出日本國旗
