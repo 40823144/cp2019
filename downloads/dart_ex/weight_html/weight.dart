@@ -1,9 +1,9 @@
 import "dart:html";
-GtoB(num g){
-return g*2.2;
+GtoB(num kg){
+return kg*2.2;
 }
-BtoG(num b){
-return b*0.45;
+BtoG(num lb){
+return lb*0.45;
 }
 main() {
     InputElement tempInput = querySelector("#temp");
@@ -23,6 +23,6 @@ convert(String data){
   } else if ((type == "L" || type == "l")){
      output.innerHtml = "英磅 $number lb = 公斤 ${BtoG(number).toStringAsFixed(2)} kg";
   } else {
-     output.innerHtml = "請輸入數字加上 KG 或 LB!";
+     output.innerHtml = "請輸入數字加上 kg 或 lb!";
   }
 } 
