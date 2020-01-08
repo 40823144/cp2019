@@ -11,8 +11,8 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #222;
-  background-color: #222; }
+  background: #40E0D0;
+  background-color: #40E0D0; }
 
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -45,7 +45,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #fff;
+  color: #7D26CD;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.2;
@@ -207,19 +207,19 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #42affa;
+  color: #5516E2;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #8dcffc;
+  color: #5516E2;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
-  color: #fff;
+  color: #5516E2;
   background: #068de9; }
 
 /*********************************************
@@ -249,7 +249,7 @@ body {
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #42affa; }
+  color: #FF1493; }
 
 /*********************************************
  * PROGRESS BAR
