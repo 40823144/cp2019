@@ -18,15 +18,15 @@ body {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 42px;
   font-weight: normal;
-  color: #fff; }
+  color: #00008B; }
 
 ::selection {
-  color: #fff;
+  color: ##00008B;
   background: #bee4fd;
   text-shadow: none; }
 
 ::-moz-selection {
-  color: #fff;
+  color: #00008B;
   background: #bee4fd;
   text-shadow: none; }
 
